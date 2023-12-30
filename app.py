@@ -41,7 +41,7 @@ def load_home_page():
             st.image('home page - images/imhome3.jpeg')
             st.markdown("## SWIGGY")
             st.markdown("""
-                        <div style="text-align: justify">Co-founded by Lakshmi Nandan Reddy, Rahul Jaimini, and Sriharsha Majety, Swiggy is an online food delivery platform that connects users with nearby restaurants, allowing them to order food from a wide range of cuisines and have it delivered to their doorstep with ease and convenience</div>
+                        <div style="text-align: justify">Co-founded by Lakshmi Nandan Reddy, Rahul Jaimini, and Sriharsha Majety, Swiggy is an online food delivery platform that connects users with nearby restaurants, allowing them to order food from a wide range of cuisines and have it delivered to their doorstep with ease and convenience through their user-friendly app</div>
                         """, unsafe_allow_html=True)
         with col3:
             st.image('home page - images/imhome4.jpeg')
@@ -66,23 +66,23 @@ def load_home_page():
         col1, col2, col3, col4, col5 = st.columns(5)
         with col1:
             st.image('home page - images/imhome9.webp')
-            st.markdown("## Mr. Radhakishan Damani")
+            st.markdown("""### Mr. Radhakishan \n### Damani""")
             st.metric('Total Investment ', 'Rs  ' + '178,572.4' + '  Cr')
         with col2:
             st.image('home page - images/imhome10.jpeg')
-            st.markdown("## Mr. Rakesh Jhunjhunwala")
+            st.markdown("""### Mr. Rakesh   \n### Jhunjhunwala""")
             st.metric('Total Investment ', 'Rs  ' + '32,059.54' + '  Cr')
         with col3:
             st.image('home page - images/imhome12.jpeg')
-            st.markdown("## Mr. Mukul Agrawal")
+            st.markdown("""### Mr. Mukul  \n### Agrawal""")
             st.metric('Total Investment ', 'Rs  ' + '4,695.6' + '  Cr')
         with col4:
             st.image('home page - images/imhome1333.jpeg')
-            st.markdown("## Mr. Ashish Dhawan")
+            st.markdown("""### Mr. Ashish  \n### Dhawan""")
             st.metric('Total Investment ', 'Rs  ' + '3,561.34' + '  Cr')
         with col5:
             st.image('home page - images/imhome11.webp')
-            st.markdown("## Mr. Hemendra Kothari")
+            st.markdown("""### Mr. Hemendra  \n### Kothari""")
             st.metric('Total Investment ', 'Rs  ' + '1,113.71' + '  Cr')
 
 
