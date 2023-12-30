@@ -41,7 +41,7 @@ def load_home_page():
             st.image('home page - images/imhome3.jpeg')
             st.markdown("## SWIGGY")
             st.markdown("""
-                        <div style="text-align: justify">Co-founded by Lakshmi Nandan Reddy, Rahul Jaimini, and Sriharsha Majety, Swiggy is an online food delivery platform that connects users with nearby restaurants, allowing them to order food from a wide range of cuisines and have it delivered to their doorstep with ease and convenience through their user-friendly app</div>
+                        <div style="text-align: justify">Co-founded by Lakshmi Nandan Reddy, Rahul Jaimini, and Sriharsha Majety, Swiggy is an online food delivery platform that connects users with nearby restaurants, allowing them to order food from a wide range of cuisines and have it delivered to their doorstep with ease and convenience through their user-friendly app.</div>
                         """, unsafe_allow_html=True)
         with col3:
             st.image('home page - images/imhome4.jpeg')
